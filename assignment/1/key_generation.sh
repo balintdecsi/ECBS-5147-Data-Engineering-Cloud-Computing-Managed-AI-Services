@@ -1,0 +1,1 @@
+ssh-keygen -t rsa -f $(pwd)/ceu_key -N ''
