@@ -1,0 +1,1 @@
+ssh -i my_keypair ubuntu@3.254.138.92
