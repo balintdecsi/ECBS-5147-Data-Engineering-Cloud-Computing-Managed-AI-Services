@@ -54,7 +54,7 @@ def generate_bucket_name(base_name):
 
 
 # Generate a unique bucket name - replace 'add-your-name-here' with your name!
-my_name = "add-your-name-here"  # TODO: Change this!
+my_name = "rezsidemon"  # TODO: Change this!
 bucket_name = generate_bucket_name(my_name)
 
 if my_name == "add-your-name-here":
@@ -217,3 +217,5 @@ if not any(b["Name"] == bucket_name for b in final_buckets):
     print("✅ Bucket successfully removed!")
 else:
     print("⚠️  Bucket still exists - might need manual removal!")
+
+# %%
