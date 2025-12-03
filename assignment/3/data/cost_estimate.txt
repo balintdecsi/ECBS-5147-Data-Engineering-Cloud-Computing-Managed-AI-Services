@@ -1,0 +1,16 @@
+AWS Cost Estimate
+=================
+
+Service              Usage Metric         Quantity        Rate (EU-West-1)     Est. Cost ($)  
+------------------------------------------------------------------------------------------
+Amazon Transcribe    Audio Duration (min) 13.93           $0.024/min           $0.3343        
+Amazon Translate     Characters           4067            $15.00/1M chars      $0.061005      
+Amazon Comprehend    Units (100 chars)    88              $0.0001/unit         $0.0088        
+Amazon S3            Storage              Negligible      $0.023/GB            < $0.01        
+---------------      ---------------      ----------      ---------------      ----------     
+TOTAL                                                                          $0.4041        
+
+Sources:
+- Transcribe: https://aws.amazon.com/transcribe/pricing/
+- Translate: https://aws.amazon.com/translate/pricing/
+- Comprehend: https://aws.amazon.com/comprehend/pricing/

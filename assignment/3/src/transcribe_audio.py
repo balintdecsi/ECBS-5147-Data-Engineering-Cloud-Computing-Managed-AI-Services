@@ -7,7 +7,7 @@ import string
 
 # Setup paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, 'data')
+DATA_DIR = os.path.join(BASE_DIR, '..', 'data')
 RAW_DIR = os.path.join(DATA_DIR, 'raw')
 TRANSCRIBED_DIR = os.path.join(DATA_DIR, 'transcribed')
 
@@ -112,7 +112,7 @@ def get_transcript(job_name):
         print(f"❌ Job {job_name} failed")
         return None
 
-if __name__ == "__main__":
+def main():
     print("🚀 Starting Transcription Process")
 
     # 2. Upload Files
@@ -142,3 +142,6 @@ if __name__ == "__main__":
 
     print("\n✨ Process completed!")
     print(f"ℹ️  Resources (Bucket {BUCKET_NAME}) were NOT deleted. Please delete them manually if needed.")
+
+if __name__ == "__main__":
+    main()

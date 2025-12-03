@@ -2,11 +2,11 @@ import boto3
 import os
 import json
 import pprint
-from translate2en import translate_to_english
+from .translate2en import translate_to_english
 
 # Setup paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, 'data')
+DATA_DIR = os.path.join(BASE_DIR, '..', 'data')
 TRANSCRIBED_DIR = os.path.join(DATA_DIR, 'transcribed')
 SENTIMENT_DIR = os.path.join(DATA_DIR, 'sentiment')
 
