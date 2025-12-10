@@ -22,3 +22,12 @@ assignment/1/ceu_key
 assignment/1/ceu_key.pub
 poetry.lock
 
+.env
+
+.claude/
+/pipeline/data
+*.zip
+
+# Solution files for views assignment (kept local only)
+pipeline/solutions/*
+!pipeline/solutions/extract_edits_solution.ipynb
