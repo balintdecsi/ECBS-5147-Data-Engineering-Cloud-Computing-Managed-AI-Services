@@ -1,0 +1,178 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{hyperref}
+\geometry{a4paper, margin=1in}
+
+\title{Homework Assignment 2}
+\author{Bálint Décsi - 2506626}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Homework Tasks}
+
+\subsection*{Task 1: Log in to AWS}
+Log in to AWS, screenshot the AWS landing page (the page you see after login).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task1.png}
+    \caption{AWS Landing Page}
+    \label{fig:task1}
+\end{figure}
+
+\subsection*{Task 2: Create a Security Group}
+Create a Security Group and configure it (add SSH and HTTP ports). Call the group ``secgroup-<your student id>-homework''.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task2.png}
+    \caption{Security Group Configuration}
+    \label{fig:task2}
+\end{figure}
+
+\subsection*{Task 3: Upload your public key}
+Upload your public key.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task3.png}
+    \caption{Uploaded Public Key}
+    \label{fig:task3}
+\end{figure}
+
+\subsection*{Task 4: Start creating a t4g.nano instance}
+Start creating a t4g.nano instance using the Ubuntu AMI we used in the class.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task4.png}
+    \caption{Creating t4g.nano Ubuntu Instance}
+    \label{fig:task4}
+\end{figure}
+
+\subsection*{Task 5: Check the price}
+Check the price of this instance on ec2instances.info.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task5.png}
+    \caption{Instance Price on ec2instances.info}
+    \label{fig:task5}
+\end{figure}
+
+\subsection*{Task 6: Select Security Group}
+On the Create Instance Page: Select your security group.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task6.png}
+    \caption{Selecting Security Group}
+    \label{fig:task6}
+\end{figure}
+
+\subsection*{Task 7: Select Key Pairs and Start}
+Create Instance Page: Select your key pairs and start the instance.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task7.png}
+    \caption{Selecting Key Pair and Starting Instance}
+    \label{fig:task7}
+\end{figure}
+
+\subsection*{Task 8: Instance Details}
+Go to the instance page of your instance (screenshot the page showing the instance’s details).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task8.png}
+    \caption{Instance Details Page}
+    \label{fig:task8}
+\end{figure}
+
+\subsection*{Task 9: SSH via Codespace}
+Use Codespace to SSH into your instance (create a screenshot of the Codespace terminal once you are logged in).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task9.png}
+    \caption{SSH Session in Codespace}
+    \label{fig:task9}
+\end{figure}
+
+\subsection*{Task 10: Streamlit Execution}
+Update the system, install, and execute Streamlit. Screenshot the terminal (Codespace) once Streamlit has started.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task10.png}
+    \caption{Streamlit Running in Terminal}
+    \label{fig:task10}
+\end{figure}
+
+\subsection*{Task 11: Create Subdomain in Route 53}
+Create a subdomain for this website with your name or any other name you like (like zoltan.ceu-data.com), in Route 53.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task11.png}
+    \caption{Route 53 Subdomain Creation}
+    \label{fig:task11}
+\end{figure}
+
+\subsection*{Task 12: Access via Domain}
+Open a browser and open your EC2 instance by connecting to its domain (the screenshot must show both the URL and the streamlit page).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task12.png}
+    \caption{Streamlit App Accessed via Domain}
+    \label{fig:task12}
+\end{figure}
+
+\subsection*{Task 13: Delete Route 53 Record}
+Delete the record in Route 53.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task13.png}
+    \caption{Route 53 Record Deletion}
+    \label{fig:task13}
+\end{figure}
+
+\subsection*{Task 14: Terminate Instance}
+Terminate the instance.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task14.png}
+    \caption{Instance Termination}
+    \label{fig:task14}
+\end{figure}
+
+\subsection*{Task 15: Delete Security Group}
+Delete the security group.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task15.png}
+    \caption{Security Group Deletion}
+    \label{fig:task15}
+\end{figure}
+
+\subsection*{Task 16: Delete Key Pair}
+Delete the key pair.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{screenshots/task16.png}
+    \caption{Key Pair Deletion}
+    \label{fig:task16}
+\end{figure}
+
+\end{document}
